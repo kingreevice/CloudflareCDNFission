@@ -40,6 +40,7 @@ jobs:
           git config --local user.email "actions@github.com"
           git add Fission_domain.txt
           git add Fission_ip.txt
+          git add dns_result.txt
           git commit -m "Add generated JSON file"
           git push origin main
           
